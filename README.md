@@ -10,11 +10,11 @@ Input:-
 
 **Solution**:
 
-- **STEP 1 : create a sig.conf file with some content in it like**
+- **STEP 1 : CREATE SIG.CONF FILE ADD SOME CONTENT**
 
 Auction ; MID ; INGESTOR ; ETL ; vdopia-etl= 5
 
-- **STEP 2 : Read the input from the user by using following code**
+- **STEP 2 : READ THE INPUT FROM THE USER BY USING FOLLOWING CODE**
 
 #!/bin/bash
 
@@ -89,9 +89,9 @@ chmod +x update_conf.sh
 
   ./update_conf.sh
 
-  -**SCREENSHOT**:
+  - **SCREENSHOT**:
 
-  ![Alt text describing the image](shellscript.png)
+  ![Alt text describing the image](shellscrpting.png)
 
 
   
