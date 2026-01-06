@@ -8,17 +8,13 @@ Input:-
 3) View [Auction/Bid]
 4) Count [single digit number]
 
-Solution:
+**Solution**:
 
-- **STEP 1**:
-
-create a sig.conf file with some content in it like
+- **STEP 1 : create a sig.conf file with some content in it like**
 
 Auction ; MID ; INGESTOR ; ETL ; vdopia-etl= 5
 
-- **STEP 2**:
-
-Read the input from the user by using following code:
+- **STEP 2 : Read the input from the user by using following code**
 
 #!/bin/bash
 
@@ -84,14 +80,19 @@ sed -i "/^$VIEW ; $SCALE ; $COMPONENT ; ETL ; $KEY=/ s/$KEY[0-9]/$KEY$COUNT/" si
 echo "Configuration updated successfully!"
 
 
--**STEP 3**:CHANGE THE PERMISSION OF THE FILE
+-**STEP 3 : CHANGE THE PERMISSION OF THE FILE**
 
 chmod +x update_conf.sh
 
 
--**STEP 4**:RUN THE SCRIPT
+-**STEP 4 : RUN THE SCRIPT**
 
   ./update_conf.sh
+
+  -**SCREENSHOT**:
+
+  ![Alt text describing the image](shellscript.png)
+
 
   
 
